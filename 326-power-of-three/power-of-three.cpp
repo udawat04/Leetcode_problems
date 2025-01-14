@@ -4,16 +4,17 @@ public:
         if(n==0){
             return false;
         }
-        if(n%3==0){
+       
             while(n%3==0){
                 n/=3;
             }
-        }
-        if(n==1){
+             if(n==1){
             return true;
         }
-        else{
+        
+       
+     
             return false;
-        }
+        
     }
 };
